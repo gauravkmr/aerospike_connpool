@@ -1,5 +1,5 @@
 import aerospike 
-from aerospikeConnector import AerospikeConnector
+from aerospike_connpool.aerospikeConnector import AerospikeConnector
 
 class AerospikeConnection():
     connection = None

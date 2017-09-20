@@ -1,6 +1,6 @@
 from queue import Queue, Empty
 from time import time
-from aerospikeConnection import AerospikeConnection
+from aerospike_connpool.aerospikeConnection import AerospikeConnection
 
 class ClientUnavailableError(Exception):
     pass
