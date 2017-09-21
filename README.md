@@ -14,6 +14,7 @@ Install the connection pool library:
 pip install aerospike_connpool
 ```
 
+Create a pool of connections. Pool object parameters: credentials, minConnections, maxConnections
 ```
 from aerospike_connpool.aerospikeConnectionWrapper import Pool
 creds = {'host': '', 'port': ''} 
